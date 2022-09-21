@@ -17,7 +17,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'o-nas',
+  id: 'sklepy-internetowe',
   lightBg: true,
   lightText: true,
   lightTextDesc: true,
