@@ -15,7 +15,13 @@ const onHover = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted playsinline  src={Video} type='video/mp4' />
+        <VideoBg  
+        autoPlay={true} 
+        loop={true}
+        controls={false} 
+        playsInline
+        muted
+        src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
         <HeroH1>Rozwiń swoją firmę z naszą pomocą!</HeroH1>
