@@ -9,22 +9,24 @@ function Sidebar({isOpen, toggle}) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
-            About
+          <SidebarLink to="oferta"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle}>
+            Oferta
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
-            Discover
+          <SidebarLink to="sklepy-internetowe"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle}>
+            Sklepy Internetowe
           </SidebarLink>
-          <SidebarLink to="services" onClick={toggle}>
-            Services
+          <SidebarLink to="realizacje"smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle}>
+          Realizacje
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
-            Sign Up
+          <SidebarLink to="cennik" smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle}>
+          Cennik
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin' onClick={toggle}>
-            Sign In
+          <SidebarRoute to='/kontakt' smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle}>
+          Kontakt
           </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
