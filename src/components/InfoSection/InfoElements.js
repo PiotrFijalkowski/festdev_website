@@ -30,7 +30,7 @@ export const InfoRow = styled.div`
     imgStart ? `'col2 col1'` : `'col1 col2'`};
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) => 
-      imgStart ? `'col1 col2'` : `'col1 col1' 'col2 col2'`};
+      imgStart ? `'col2 col2' 'col1 col1'` : `'col1 col1' 'col2 col2'`};
   }
 `
 
@@ -79,7 +79,9 @@ export const Subtitle = styled.p`
  margin-bottom: 35px;
  font-size: 18px;
  line-height: 24px;
+ white-space: pre-line;
  color: ${({ lightTextDesc }) => (lightTextDesc ?  '#fff' : '#010606')
+ 
  };
 `
 
