@@ -49,11 +49,12 @@ const Navbar = ({toggle}) => {
               <NavLinks to="oferta"
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Oferta</NavLinks>
+              
             </NavItem>
             <NavItem>
-              <NavLinks to="o-nas"
+              <NavLinks to="sklepy-internetowe"
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >O nas</NavLinks>
+              >Sklepy Internetowe</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="realizacje">Realizacje</NavLinks>
