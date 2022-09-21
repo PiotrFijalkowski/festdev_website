@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaBars } from 'react-icons/fa'
+import {animateScroll as scroll} from 'react-scroll'
+import { IconContext } from 'react-icons/lib'
 import { 
   Nav, 
   NavbarContainer, 
@@ -9,39 +11,64 @@ import {
   NavItem, 
   NavLinks, 
   NavBtn, 
-  NavBtnLink 
+  NavBtnLink,
+  NavImg 
 } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
+  const [scrollNav, setScrollNav] = useState(false)
+
+  const changeNav = () => {
+    if(window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false)
+    }
+  }
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav)
+  }, [])
   return (
     <>
-      <Nav>
+    <IconContext.Provider value={{ color: '#fff'}}>
+      <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/'>
-            FestDev
+          <NavLogo to='/' onClick={toggleHome}>
+            <NavImg src={require('../../images/logo.svg').default} />
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks to="oferta"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Oferta</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Discover</NavLinks>
+              <NavLinks to="o-nas"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >O nas</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks to="realizacje">Realizacje</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
+              <NavLinks to="cennik">Cennik</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+              <NavBtnLink to="/kontakt">Kontakt</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
+      </IconContext.Provider>
+
     </>
   )
 }
