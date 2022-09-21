@@ -20,7 +20,7 @@ const onHover = () => {
         loop={true}
         controls={false} 
         playsInline
-        defaultMuted
+        muted
         src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
