@@ -8526,6 +8526,11 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
+typeface-encode-sans-expanded@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-encode-sans-expanded/-/typeface-encode-sans-expanded-1.1.13.tgz#3a4028dcccf75b4b64a2b0c671128bc1b1f82a04"
+  integrity sha512-YLPKH8yb/T1s3MhtGpy81BaVmCJcBX2N8mPX0qoLaiS3WOeet6FMnF7auQhyhD6Xwx+Tf59yds9AjaX+c6v58g==
+
 unbox-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.0.2.tgz#29032021057d5e6cdbd08c5129c226dff8ed6f9e"
