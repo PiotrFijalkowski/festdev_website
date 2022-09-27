@@ -57,7 +57,9 @@ const Navbar = ({toggle}) => {
               >Sklepy Internetowe</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="realizacje">Realizacje</NavLinks>
+              <NavLinks to="realizacje"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Realizacje</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="cennik">Cennik</NavLinks>

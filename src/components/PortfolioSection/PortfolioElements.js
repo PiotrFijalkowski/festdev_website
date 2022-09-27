@@ -5,7 +5,7 @@ export const PortfolioContainer = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  padding: 50px 24px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -25,7 +25,7 @@ export const PortfolioH1 = styled.h1`
 `
 export const PortfolioBoxContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
   width: 100%;
   @media screen and (max-width: 1024px) {
@@ -43,7 +43,19 @@ export const PortfolioBox = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: red;
+background-color: transparent;
 aspect-ratio: 1;
+
+
+`
+
+export const PortfolioBoxImg = styled.img`
+max-width: 100%;
+opacity: 0.8;
+transition: all 0.2s ease-in-out;
+&:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
 
 `
