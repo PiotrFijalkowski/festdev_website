@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button } from '../ButtonElements'
+import { ButtonR } from '../ButtonElements'
+
 import { 
   InfoContainer, 
   InfoWrapper, 
@@ -42,8 +43,8 @@ dark2}) => {
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button 
-                  to='home'
+                  <ButtonR 
+                 to='/kontakt'
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -52,7 +53,7 @@ dark2}) => {
                   primary={primary ? 1 : 0}
                   dark={dark ? 1 : 0}
                   dark2={dark2 ? 1 : 0}
-                  >{buttonLabel}</Button>
+                  >{buttonLabel}</ButtonR>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

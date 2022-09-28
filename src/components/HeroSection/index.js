@@ -27,7 +27,11 @@ const onHover = () => {
         <HeroH1>Rozwiń swoją firmę z naszą pomocą!</HeroH1>
         <HeroP>Tworzymy strony internetowe z pasją</HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark='true'>
+          <Button to="oferta" smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80} onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark='true'>
             Zobacz Ofertę {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>

@@ -13,7 +13,7 @@ import {
   NavBtn, 
   NavBtnLink,
   NavImg 
-} from './NavbarElements'
+} from './NavbarKontaktElements'
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false)
@@ -46,23 +46,23 @@ const Navbar = ({toggle}) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="oferta"
+              <NavLinks to="/"
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Oferta</NavLinks>
               
             </NavItem>
             <NavItem>
-              <NavLinks to="sklepy-internetowe"
+              <NavLinks to="/"
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Sklepy Internetowe</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="realizacje"
+              <NavLinks to="/"
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Realizacje</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="cennik" 
+              <NavLinks to="/" 
               smooth={true} duration={500} spy={true} exact='true' offset={-80}>Cennik</NavLinks>
             </NavItem>
           </NavMenu>

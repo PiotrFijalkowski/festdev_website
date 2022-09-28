@@ -51,10 +51,9 @@ aspect-ratio: 1;
 
 export const PortfolioBoxImg = styled.img`
 max-width: 100%;
-opacity: 0.8;
 transition: all 0.2s ease-in-out;
 &:hover {
-  opacity: 1;
+  transform: scale(110%);
   transition: all 0.2s ease-in-out;
 }
 
