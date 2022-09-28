@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const FormContainer = styled.div `
 width: 100%;
 height: 100vh;
-background-color: #010101;
+background: #09302e;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 color: #fff;
+@media screen and (max-width: 768px) {
+  padding: 25px;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -20,7 +23,8 @@ form {
     color: #fff;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #229d95;
+    border: 2px solid #229d95;
+    border-radius: 15px;
     text-align: center;
     padding: 15px;
     margin: 5px 0px;
@@ -34,6 +38,9 @@ form {
     margin-top: 15px;
     background-color: #229d95;
     transition: all 0.5s ease-in-out;
+    width: 50%;
+    border-radius: 25px;
+    min-height: 50px;
     &:hover {
       background-color: #00757d;
       border: 2px solid #00757d;

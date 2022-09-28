@@ -21,12 +21,17 @@ flex-direction: column;
 align-items: center;
 justify-content: space-between;
 width: 100%;
+
 `
 export const FooterRow = styled.div`
 display: flex;
 justify-content: space-between;
 width: 100%;
 flex-direction: row;
+@media screen and (max-width: 768px) {
+  flex-direction: column;
+  
+}
 &.under {
   background-color: #229d95;
   color: #fff;
@@ -46,8 +51,18 @@ display: flex;
 flex-direction: column;
 text-decoration: none;
 text-align: right;
+@media screen and (max-width: 768px) {
+  text-align: center;
+  margin: 25px 0px;
+}
 &.left {
   text-align: left;
+  @media screen and (max-width: 768px) {
+  text-align: center;
+  margin: 25px 0px;
+  justify-content: center;
+    align-items: center;
+}
 }
 a {
   color: #fff;
@@ -67,10 +82,18 @@ flex-direction: row;
 align-items: center;
 justify-content: space-between;
 width: 100%;
+@media screen and (max-width: 768px) {
+  flex-direction: column;
+  align-items: center;
+}
 `
 
 export const FooterLogo = styled.img`
 width: 250px;
+margin-bottom: 10px;
+@media screen and (max-width: 768px) {
+  width: 200px;
+}
 `
 
 export const FooterLink = styled(LinkS)`
