@@ -42,6 +42,7 @@ export const VideoBg = styled.video`
   object-fit: cover;
   -o-object-fit: cover;
   background: #232a34;
+  filter: blur(3px);
 `
 
 export const HeroContent = styled.div`

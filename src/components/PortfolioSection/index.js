@@ -12,22 +12,22 @@ const Portfolio = () => {
         </PortfolioTittleWrapper>
         <PortfolioBoxContainer>
           <PortfolioBox>
-            <PortfolioBoxImg src={require('../../images/web1.png')}></PortfolioBoxImg>
+            <PortfolioBoxImg src={require('../../images/web1.webp')}  width='100%' height='100%'/>
           </PortfolioBox>
           <PortfolioBox>
-            <PortfolioBoxImg src={require('../../images/web2.png')}></PortfolioBoxImg>
+            <PortfolioBoxImg src={require('../../images/web2.webp')} width='100%' height='100%'/>
           </PortfolioBox>
           <PortfolioBox>
-            <PortfolioBoxImg src={require('../../images/web3.png')}></PortfolioBoxImg>
+            <PortfolioBoxImg src={require('../../images/web3.webp')} width='100%' height='100%'/>
           </PortfolioBox>
           <PortfolioBox>
-            <PortfolioBoxImg src={require('../../images/web4.png')}></PortfolioBoxImg>
+            <PortfolioBoxImg src={require('../../images/web4.webp')} width='100%' height='100%'/>
           </PortfolioBox>
           <PortfolioBox>
-            <PortfolioBoxImg src={require('../../images/web5.png')}></PortfolioBoxImg>
+            <PortfolioBoxImg src={require('../../images/web5.webp')} width='100%' height='100%'/>
           </PortfolioBox>
           <PortfolioBox>
-            <PortfolioBoxImg src={require('../../images/web6.png')}></PortfolioBoxImg>
+            <PortfolioBoxImg src={require('../../images/web6.webp')} width='100%' height='100%'/>
           </PortfolioBox>
 
         </PortfolioBoxContainer>
