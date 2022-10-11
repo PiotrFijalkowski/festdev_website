@@ -27,7 +27,7 @@ display: grid;
   @media screen and (max-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     grid-template-columns: repeat(1, 1fr);
   }
 `
@@ -53,6 +53,7 @@ ul {
   padding-inline-start: 0px;
 
   li {
+    font-size: 14px;
     border-bottom: 1px solid #454545;
     transition: all 0.3s ease-in-out;
     padding: 15px;

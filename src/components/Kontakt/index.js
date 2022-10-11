@@ -37,7 +37,7 @@ const Form = () => {
         Dziękujemy za wysłanie wiadomości. Wkrótce konsultant odezwie się do Państwa.
         </SubmitMessage> 
        <SubmitErrorMessage className={isErrorSubmit}>
-        Błąd wysyłania wiadomości. Spróbuj ponownie. Jeśli nie pomoże zapraszamy do kontaktu pod adresem festdevpl@gmail.com
+        Błąd wysyłania wiadomości. Spróbuj ponownie. Jeśli nie pomoże zapraszamy do kontaktu pod adresem kontakt@festdev.pl
         </SubmitErrorMessage> 
       </FormContainer>
     </>

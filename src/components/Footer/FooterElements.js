@@ -85,6 +85,7 @@ width: 100%;
 @media screen and (max-width: 768px) {
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 `
 
@@ -111,7 +112,6 @@ padding: 5px 0px;
   color: #fff;
 &:hover {
   cursor: pointer;
-  font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
 `

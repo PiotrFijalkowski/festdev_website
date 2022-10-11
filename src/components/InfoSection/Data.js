@@ -40,7 +40,7 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: 'Masz pytania lub chcesz podjąć współprace?',
   headline: 'Skontaktuj się z nami',
-  description: "Zadzwoń: +48 881 185 247 \n Napisz do nas na FestDevPL@gmail.com \n lub skorzystaj z formularza kontaktowego" ,
+  description: "Zadzwoń: +48 881 185 247 \n Napisz do nas na kontakt@festdev.pl \n lub skorzystaj z formularza kontaktowego" ,
   buttonLabel: 'Formularz Kontaktowy',
   imgStart: false, 
   img: require('../../images/svg-3.svg').default,

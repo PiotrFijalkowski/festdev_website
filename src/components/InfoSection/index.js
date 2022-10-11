@@ -59,7 +59,7 @@ dark2}) => {
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} />
+                <Img src={img} alt={alt} width='500px' height='500px'/>
               </ImgWrap>
             </Column2>
           </InfoRow>

@@ -31,6 +31,9 @@ form {
     &:focus {
       border: 2px solid #229d95;
     }
+    &::placeholder {
+      color: #fff;
+    }
   }
   input[type='submit'] {
     border: 2px solid #229d95;

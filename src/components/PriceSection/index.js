@@ -25,7 +25,7 @@ const Prices = () => {
               <li>Certyfikat SSL</li>
             </ul>
           </PricesBoxContent>
-          <PricesBoxBottom>Cena <br /><b>od 1200PLN</b></PricesBoxBottom>
+          <PricesBoxBottom>Cena <br /><b>od 1000PLN</b></PricesBoxBottom>
         </PricesBox>
         <PricesBox>
           <PricesBoxTitle>Pakiet Individual</PricesBoxTitle>
