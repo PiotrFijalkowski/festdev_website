@@ -8,13 +8,13 @@ const Footer = () => {
         <FooterWrapper>
           <FooterRow>
             <FooterColumn className='left'>
-              <FooterLogo src={require('../../images/logo.svg').default}/>
+              <FooterLogo width="250px" height='45px' src={require('../../images/logo.svg').default} />
               <p>Tworzymy strony internetowe z pasją. <br />Rozwiń swój biznes już dziś.</p>
             </FooterColumn>
             <FooterColumn>
             <h3>Kontakt</h3><br />
             <p><TeleIcon /> <a href="tel:+48881185247">+48 881-185-247</a></p>
-            <p><GmailIcon /> <a href="mailto:festdevpl@gmail.com">FestDevPL@gmail.com</a></p>
+            <p><GmailIcon /> <a href="mailto:kontakt@festdev.pl">Kontakt@FestDev.pl</a></p>
             </FooterColumn>
             <FooterColumn>
               <h3>Przydatne Linki</h3><br />
