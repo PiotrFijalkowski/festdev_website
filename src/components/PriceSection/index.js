@@ -11,18 +11,18 @@ const Prices = () => {
           <PricesBoxTitle>Pakiet Ekspress</PricesBoxTitle>
           <PricesBoxContent>
             <ul>
-              <li>Strona gotowa w kilka dni</li>
-              <li>Pełna możliwość edycji treści</li>
-              <li>System CMS WordPress</li>
-              <li>Strona oparta o szablon</li>
-              <li>RWD - dostosowanie strony do urządzeń mobilnych</li>
-              <li>Formularz kontaktowy</li>
-              <li>Mapa Google</li>
-              <li>Domena i Serwer</li>
-              <li>Optymalizacja SEO</li>
-              <li>Szkolenie z obsługi</li>
-              <li>2 lata gwarancji</li>
-              <li>Certyfikat SSL</li>
+              <li>Twój nowy serwis internetowy gotowy w kilka dni</li>
+              <li>Pełna możliwość samodzielnej edycji treści</li>
+              <li>Niezawodny system CMS WordPress</li>
+              <li>Strona oparta o atrakcyjny szablon</li>
+              <li>RWD - dostosowanie strony do wszelkich urządzeń mobilnych</li>
+              <li>Interaktywny formularz kontaktowy</li>
+              <li>Lokalizacja na Mapie Google</li>
+              <li>Zakup domeny i serwera</li>
+              <li>Profesjonalna optymalizacja SEO</li>
+              <li>Szkolenie z obsługi strony</li>
+              <li>2 lata gwarancji na usługi</li>
+              <li>Bezpieczny certyfikat SSL</li>
             </ul>
           </PricesBoxContent>
           <PricesBoxBottom>Cena <br /><b>od 1000PLN</b></PricesBoxBottom>
@@ -31,18 +31,18 @@ const Prices = () => {
           <PricesBoxTitle>Pakiet Individual</PricesBoxTitle>
           <PricesBoxContent>
             <ul>
-              <li>Indywidualny Projekt Graficzny</li>
-              <li>Pełna możliwość edycji treści</li>
-              <li>System CMS WordPress</li>
-              <li>Szablon tworzony według Projektu</li>
-              <li>RWD - dostosowanie strony do urządzeń mobilnych</li>
-              <li>Formularz kontaktowy</li>
-              <li>Mapa Google</li>
-              <li>Domena i Serwer</li>
-              <li>Optymalizacja SEO</li>
-              <li>Szkolenie z obsługi</li>
-              <li>2 lata gwarancji</li>
-              <li>Certyfikat SSL</li>
+              <li>Indywidualny Projekt Graficzny dostosowany do Twoich potrzeb</li>
+              <li>Pełna możliwość samodzielnej edycji treści</li>
+              <li>Niezawodny system CMS WordPress</li>
+              <li>Szablon tworzony według unikalnego Projektu</li>
+              <li>RWD - dostosowanie strony do wszelkich urządzeń mobilnych</li>
+              <li>Interaktywny formularz kontaktowy</li>
+              <li>Lokalizacja na Mapie Google</li>
+              <li>Zakup domeny i serwera</li>
+              <li>Profesjonalna optymalizacja SEO</li>
+              <li>Szkolenie z obsługi strony</li>
+              <li>2 lata gwarancji na usługi</li>
+              <li>Bezpieczny certyfikat SSL</li>
             </ul>
           </PricesBoxContent>
           <PricesBoxBottom>Cena <br /><b>od 2000PLN</b></PricesBoxBottom>
@@ -51,18 +51,18 @@ const Prices = () => {
           <PricesBoxTitle>Pakiet E-COMMERCE</PricesBoxTitle>
           <PricesBoxContent>
             <ul>
-              <li>Indywidualny Projekt Graficzny</li>
-              <li>Pełna możliwość edycji treści</li>
-              <li>Bezpieczne płatności</li>
-              <li>Szablon tworzony według Projektu</li>
-              <li>RWD - dostosowanie strony do urządzeń mobilnych</li>
-              <li>Formularz kontaktowy</li>
-              <li>Mapa Google</li>
-              <li>Domena i Serwer</li>
-              <li>Optymalizacja SEO</li>
-              <li>Szkolenie z obsługi</li>
-              <li>2 lata gwarancji</li>
-              <li>Certyfikat SSL</li>
+              <li>Indywidualny Projekt Graficzny dostosowany do Twojego biznesu</li>
+              <li>Pełna możliwość samodzielnej edycji treści</li>
+              <li>Bezpieczne i szybkie płatności online</li>
+              <li>Szablon tworzony według unikalnego Projektu</li>
+              <li>RWD - dostosowanie strony do wszelkich urządzeń mobilnych</li>
+              <li>Interaktywny formularz kontaktowy</li>
+              <li>Lokalizacja na Mapie Google</li>
+              <li>Zakup domeny i serwera</li>
+              <li>Profesjonalna optymalizacja SEO</li>
+              <li>Szkolenie z obsługi strony</li>
+              <li>2 lata gwarancji na usługi</li>
+              <li>Bezpieczny certyfikat SSL</li>
             </ul>
           </PricesBoxContent>
           <PricesBoxBottom>Cena <br /><b>od 2500PLN</b></PricesBoxBottom>

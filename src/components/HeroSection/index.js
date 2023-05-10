@@ -24,15 +24,15 @@ const onHover = () => {
         src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Rozwiń swoją firmę z naszą pomocą!</HeroH1>
-        <HeroP>Tworzymy strony internetowe z pasją</HeroP>
+        <HeroH1>Rozwiń swój biznes dzięki naszej wiedzy!</HeroH1>
+        <HeroP>Projektujemy strony internetowe z pasją, przekształcając twoje wizje w rzeczywistość.</HeroP>
         <HeroBtnWrapper>
           <Button to="oferta" smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80} onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark='true'>
-            Zobacz Ofertę {hover ? <ArrowForward /> : <ArrowRight />}
+             Poznaj naszą Ofertę {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

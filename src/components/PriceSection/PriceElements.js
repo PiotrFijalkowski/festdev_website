@@ -57,6 +57,10 @@ ul {
     border-bottom: 1px solid #454545;
     transition: all 0.3s ease-in-out;
     padding: 15px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover {
       background-color: #0b3330;
       transition: all 0.3s ease-in-out;
